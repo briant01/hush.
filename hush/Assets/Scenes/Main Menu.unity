@@ -327,6 +327,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
+    - target: {fileID: 3071078767052047064, guid: 53d05db92b3ef1f4d8d7102fad66d03c, type: 3}
+      propertyPath: m_Text
+      value: ABOUT/CONTROLS
+      objectReference: {fileID: 0}
+    - target: {fileID: 3076639714673140360, guid: 53d05db92b3ef1f4d8d7102fad66d03c, type: 3}
+      propertyPath: m_Name
+      value: ABOUT/CONTROLS
+      objectReference: {fileID: 0}
     - target: {fileID: 3608295459436781305, guid: 53d05db92b3ef1f4d8d7102fad66d03c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -432,7 +440,8 @@ PrefabInstance:
       value: SetActive
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2093228917119291637, guid: 53d05db92b3ef1f4d8d7102fad66d03c, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53d05db92b3ef1f4d8d7102fad66d03c, type: 3}
