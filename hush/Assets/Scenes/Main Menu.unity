@@ -777,6 +777,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 66290067}
     m_Modifications:
+    - target: {fileID: 176229301407833676, guid: c1882090335e58243bf64f2062736624, type: 3}
+      propertyPath: m_Text
+      value: 'Trapped in a high school overnight, you are faced with the challenge
+        of a haunted horror. Explore your ways around the vast corridors and rooms,
+        as curiousity will become the "keys" to your survival. Withstanding its sense
+        will be difficult, so hush...
+
+
+        Forward: W   Left: A   Backward:
+        S   Right: D   Sprint: SHIFT   Flashlight: F'
+      objectReference: {fileID: 0}
+    - target: {fileID: 176229301407833676, guid: c1882090335e58243bf64f2062736624, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 176229301407833676, guid: c1882090335e58243bf64f2062736624, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 621634896032127350, guid: c1882090335e58243bf64f2062736624, type: 3}
       propertyPath: m_SizeDelta.x
       value: 1700
@@ -869,6 +888,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
+    - target: {fileID: 7042608739474027254, guid: c1882090335e58243bf64f2062736624, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8254265404231814545, guid: c1882090335e58243bf64f2062736624, type: 3}
       propertyPath: m_Name
       value: About Page
@@ -913,6 +936,29 @@ PrefabInstance:
     - target: {fileID: 3489838834093591119, guid: b55b257dbf2d1ee41bc66a982cb79474, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735554358828024817, guid: b55b257dbf2d1ee41bc66a982cb79474, type: 3}
+      propertyPath: m_Text
+      value: 'Team Lead and 3D Moderler: Andy Duong
+
+        UI Design and Audio
+        Recognition: Brian Tram
+
+        Gameplay Design: Jerry Liu
+
+        AI and
+        Monster Logical Design: Stephen Chen
+
+
+        Submission to HawkHacks 2024'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735554358828024817, guid: b55b257dbf2d1ee41bc66a982cb79474, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735554358828024817, guid: b55b257dbf2d1ee41bc66a982cb79474, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4914793540519654006, guid: b55b257dbf2d1ee41bc66a982cb79474, type: 3}
       propertyPath: m_Pivot.x
@@ -1091,7 +1137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 208698258818017856, guid: 558a2528b8f1b1d4ba7d7434ff381a03, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 250
+      value: 270
       objectReference: {fileID: 0}
     - target: {fileID: 208698258818017856, guid: 558a2528b8f1b1d4ba7d7434ff381a03, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
