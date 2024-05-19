@@ -7,7 +7,7 @@ public class AudioLoudnessDetection : MonoBehaviour
     public int sampleWindow = 64;
     private AudioClip microphoneClip;
 
-    public GameObject player;
+    public Transform player;
     public GameObject mm;
 
     // Start is called before the first frame update
@@ -20,9 +20,9 @@ public class AudioLoudnessDetection : MonoBehaviour
     void Update()
     {
         float loudness = GetLoudnessFromMicrophone();
-        if(Mathf.Log10(loudness)>-2)
+        if(Mathf.Log10(loudness)>-1)
         {
-            mm.GetComponent<MonsterMovement>().locate();
+            mm.GetComponent<MonsterMovement>().locate(player);
         }
     }
 
