@@ -31,12 +31,12 @@ public class PlayerMovementScript : MonoBehaviour
 
         if(Input.GetKey(KeyCode.LeftShift))
         {
-            speed = 16f;
+            speed = 10f;
 
             Stamina -= RunCost * Time.deltaTime;
             if(Stamina < 0) Stamina = 0;
             StaminaBar.fillAmount = Stamina / MaxStamina;
-            if (Stamina == 0) speed = 10f;
+            if (Stamina == 0) speed = 6f;
 
             if (recharge != null) StopCoroutine(recharge);
             recharge = StartCoroutine(RechargeStamina());
@@ -44,7 +44,7 @@ public class PlayerMovementScript : MonoBehaviour
         } 
         else
         {
-            speed = 12f;
+            speed = 8f;
         }
 
     

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class JumpScare : MonoBehaviour
 {
@@ -17,7 +18,7 @@ public class JumpScare : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Ah");
+      
         if (other.gameObject.tag == "Enemy")
         {
             JumpScareImg.SetActive(true);
@@ -31,6 +32,7 @@ public class JumpScare : MonoBehaviour
     {
          yield return new WaitForSeconds(2);
          JumpScareImg.SetActive(false);
+        SceneManager.LoadScene(0);
     }
 
     
