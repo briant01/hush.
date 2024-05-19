@@ -24,7 +24,7 @@ public class JumpScare : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             JumpScareImg.SetActive(true);
-            player.GetComponent<Audio>().Jumpscare();
+            audioSource.Play();
             StartCoroutine(DisableImg());
         }
 
