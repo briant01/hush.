@@ -20,7 +20,7 @@ public class AudioLoudnessDetection : MonoBehaviour
     void Update()
     {
         float loudness = GetLoudnessFromMicrophone();
-        if(Mathf.Log10(loudness)>-1)
+        if(Mathf.Log10(loudness)>-0.05)
         {
             mm.GetComponent<MonsterMovement>().locate(player);
         }
