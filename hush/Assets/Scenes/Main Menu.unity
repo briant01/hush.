@@ -407,6 +407,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4333117596367246825, guid: 53d05db92b3ef1f4d8d7102fad66d03c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1238171234}
+    - target: {fileID: 4333117596367246825, guid: 53d05db92b3ef1f4d8d7102fad66d03c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayGame
+      objectReference: {fileID: 0}
     - target: {fileID: 5404010126280571614, guid: 53d05db92b3ef1f4d8d7102fad66d03c, type: 3}
       propertyPath: m_Name
       value: Main Menu
@@ -549,27 +557,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3282355961936808901, guid: d006bf5cb5c08694181faba7ec0f2979, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3282355961936808901, guid: d006bf5cb5c08694181faba7ec0f2979, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3282355961936808901, guid: d006bf5cb5c08694181faba7ec0f2979, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3282355961936808901, guid: d006bf5cb5c08694181faba7ec0f2979, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3282355961936808901, guid: d006bf5cb5c08694181faba7ec0f2979, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 1980
       objectReference: {fileID: 0}
     - target: {fileID: 3282355961936808901, guid: d006bf5cb5c08694181faba7ec0f2979, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 1050
       objectReference: {fileID: 0}
     - target: {fileID: 3282355961936808901, guid: d006bf5cb5c08694181faba7ec0f2979, type: 3}
       propertyPath: m_LocalPosition.x
@@ -635,6 +643,8 @@ GameObject:
   - component: {fileID: 1238171233}
   - component: {fileID: 1238171232}
   - component: {fileID: 1238171231}
+  - component: {fileID: 1238171235}
+  - component: {fileID: 1238171234}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -716,6 +726,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1238171234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238171230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95f8f2e046b699f4ba6e7bc0fca5d997, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1238171235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238171230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 853f2e7549ed7744f943fcecf29a40f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1602530457 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3489838834093591119, guid: b55b257dbf2d1ee41bc66a982cb79474, type: 3}
@@ -734,6 +768,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 66290067}
     m_Modifications:
+    - target: {fileID: 621634896032127350, guid: c1882090335e58243bf64f2062736624, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1700
+      objectReference: {fileID: 0}
     - target: {fileID: 2096569587326694054, guid: c1882090335e58243bf64f2062736624, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -950,6 +988,10 @@ PrefabInstance:
     - target: {fileID: 7037579262679925250, guid: b55b257dbf2d1ee41bc66a982cb79474, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113893839463280091, guid: b55b257dbf2d1ee41bc66a982cb79474, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1700
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
