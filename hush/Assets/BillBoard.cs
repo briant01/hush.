@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class BillBoard : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private Transform cam;
     void Start()
     {
-        
+        cam = Camera.main.transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.LookAt(transform.position = cam.forward);
     }
 }
