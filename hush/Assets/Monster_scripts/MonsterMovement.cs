@@ -79,7 +79,8 @@ public class MonsterMovement : MonoBehaviour
   public void locate(Transform p)
     {
         walkPointSet = true;
-        walkPoint = new Vector3(p.position.x, 2, p.position.z);
+        walkPoint = new Vector3(p.position.x, 0, p.position.z);
+        
     }
     
     
