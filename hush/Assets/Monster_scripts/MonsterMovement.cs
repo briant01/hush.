@@ -76,7 +76,11 @@ public class EnemyAiTutorial : MonoBehaviour
     }
 
 
-  
+  public void locate(Transform p)
+    {
+        walkPointSet = true;
+        walkPoint = new Vector3(p.position.x, 2, p.position.z);
+    }
     
     
 }
